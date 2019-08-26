@@ -67,3 +67,28 @@ h1 {
 .hole.up .mole {
   top: 0;
 }
+
+#start {
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  text-decoration: none;
+  border: 0;
+  background: #3b1010;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+#start:hover {
+  opacity: 0.8;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
